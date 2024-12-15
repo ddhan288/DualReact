@@ -1,9 +1,9 @@
-export function Navbar () {
+export default function Navbar() {
   return (
     <>
       <nav class="navbar">
         <div>
-          <img src="./assets/react.svg" alt="logo" class="logo"/>
+          <img src="react.svg" alt="logo" class="logo" />
         </div>
         <div>
           <ul class="navbar-list">
@@ -12,12 +12,7 @@ export function Navbar () {
             <li class="navbar-list-items">Add Jobs</li>
           </ul>
         </div>
-        
       </nav>
     </>
-  )
+  );
 }
-
-
-
-

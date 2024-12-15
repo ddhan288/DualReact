@@ -1,0 +1,31 @@
+1. What is a React component?
+a function that returns react elements or UI 
+
+the function returns the html element in the form of jsx and the createElement function return the javascript objects which interpret and turn into real DOM under the hoood
+
+React is component is a  pieace of reusable code  or a section of a website for example a navbar  footer .. which we write once and we can it whereever  we need the same piece of code .
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+the function name should be in Pascal case. as it is a component.
+
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <img src="./react-logo.png" width="40px" alt="React logo" />
+        </header>
+    )
+}
+
+root.render(Header())
+```
+the Header component is not being called in the root.render()
+rather it should be called like in the form of react component  <Header/>

@@ -1,0 +1,15 @@
+.Hero-section {
+  background-color: #4a3aff;
+  border-top: 5px #ad2b14;
+  display: block;
+  color: rgb(250, 245, 245);
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.user-type-content {
+  padding: 20px;
+  font-size: large;
+}

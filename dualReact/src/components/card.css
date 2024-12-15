@@ -1,0 +1,18 @@
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: #f1a2a2;
+}
+.card {
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 300px;
+}
